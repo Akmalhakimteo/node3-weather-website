@@ -23,16 +23,16 @@ app.use(express.static(publicDirectoryPath));
 app.get("", (req, res) => {
   res.render("index", {
     title: "weather",
-    name: "Akmal",
-    author: "Akmal",
+    name: "Akmalhakimteo",
+    author: "Akmalhakimteo",
   });
 });
 
 app.get("/about", (req, res) => {
   res.render("about", {
     title: "about me",
-    name: "Akmal",
-    author: "Akmal",
+    name: "Akmalhakimteo",
+    author: "Akmalhakimteo",
   });
 });
 
@@ -40,8 +40,8 @@ app.get("/help", (req, res) => {
   res.render("help", {
     title: "help",
     topic: "help me",
-    name: "Akmal",
-    author: "Akmal",
+    name: "Akmalhakimteo",
+    author: "Akmalhakimteo",
   });
 });
 
@@ -91,7 +91,7 @@ app.get("/products", (req, res) => {
 app.get("*", (req, res) => {
   res.render("404", {
     title: "404",
-    author: "Akmal",
+    author: "Akmalhakimteo",
     errorMsg: "404 Page not found lah",
   });
 });
